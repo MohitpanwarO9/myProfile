@@ -6,17 +6,18 @@
     <title>Mohit_P</title>
 
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <div class="intro_sec">
         <div class="intro_main">
-            <img src="img/ig.jpg" alt="profile img" width="100px" height="100px">
+            <img src="img/myimg1.png" alt="profile img" width="100px" height="100px">
             <h2>Mohit Panwar</h2>
             <h5>@Fullstack_developer (MERN)</h5>
             <div class="container">
                 <p class="intro_text">
                     Hola!🖐 myself Mohit Panwar , I am mern developer at infosys. <br> I'm also intrested in conpetitive coding. 
-                    My fav programing language is C++. <br> You can also take a look at my leetcode profile and other social profile.
+                    My fav programing language is C++. <br> You can also take a look at my leetcode profile and other social profiles.
                 </p>
             </div>
             <div class="social_links">
@@ -24,13 +25,28 @@
                     <li><a href="https://leetcode.com/sandy09/">LeetCode</a></li>
                     <li><a href="https://www.linkedin.com/in/mohitpanwar09/">Linkedin</a></li>
                     <li><a href="https://github.com/MohitpanwarO9">github</a></li>
-
                 </ul>
             </div>
             <hr>
             <p>React | C++ | DSA | Node.js | Express | Dot Net</p>
             <hr>
             
+            <div class="projects">
+                <p>Projects</p>
+                <hr>
+                <ul class="pj_links">
+                    <li><a  id="pj1" onclick="project_onclick(this.id)">Chat App</a><br> <p id="pj1dir">Batchit, I made this app as my 3 year<br> summer project it was a chatting 
+                        chatting application in which you<br> can send and recive message from your near and dear ones.
+                    </p></li>
+
+                    <li><a  id="pj2" onclick="project_onclick(this.id)">Weather App</a><br> <p id="pj2dir">this is a weather forcast application which <br>tells you about weather condition you can search by your <br>city name and and can get the weather condition of your city.
+                    </p></li>
+
+                    <li><a  id="pj3" onclick="project_onclick(this.id)">Seat finder</a><br> <p id="pj3dir">this application helps you to identify which seat you have been allocated <br>(upper ,lower, middle,side upper, side lower). you can do this by <br>sproviding your seat number and it will tell you about your seat.
+                    </p></li>
+                </ul>
+            </div>
+
         </div>
     </div>
 </body>
