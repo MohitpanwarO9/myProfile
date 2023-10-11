@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,16 +9,24 @@
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
 </head>
+
 <body>
     <div class="intro_sec">
-        <div class="intro_main">
+
+        <div class="icon_prev" id="prev_ptr" onclick="change_Content(this.id)">
+            <img src="img/preicon.png" alt="previcon">
+        </div>
+
+        <div class="intro_main" id="intro">
             <img src="img/myimg1.png" alt="profile img" width="100px" height="100px">
             <h2>Mohit Panwar</h2>
             <h5>@Fullstack_developer (MERN)</h5>
             <div class="container">
                 <p class="intro_text">
-                    Hola!🖐 myself Mohit Panwar , I am mern developer at infosys. <br> I'm also intrested in conpetitive coding. 
-                    My fav programing language is C++. <br> You can also take a look at my leetcode profile and other social profiles.
+                    Hola!🖐 myself Mohit Panwar , I am MERN developer at infosys. <br> I'm also interested in conpetitive
+                    coding.
+                    My fav programming language is C++. <br> You can also take a look at my leetcode profile and other
+                    social profiles.
                 </p>
             </div>
             <div class="social_links">
@@ -30,24 +39,59 @@
             <hr>
             <p>React | C++ | DSA | Node.js | Express | Dot Net</p>
             <hr>
-            
+
             <div class="projects">
                 <p>Projects</p>
                 <hr>
                 <ul class="pj_links">
-                    <li><a  id="pj1" onclick="project_onclick(this.id)">Chat App</a><br> <p id="pj1dir">Batchit, I made this app as my 3 year<br> summer project it was a chatting 
-                        chatting application in which you<br> can send and recive message from your near and dear ones.
-                    </p></li>
+                    <li><a id="pj1" onclick="project_onclick(this.id)">Chat App</a><br>
+                        <p id="pj1dir">Batchit, I made this app as my 3 year<br> summer project. It was a
+                            chatting application in which you<br> can send and receive message from your near and dear
+                            ones.
+                        </p>
+                    </li>
 
-                    <li><a  id="pj2" onclick="project_onclick(this.id)">Weather App</a><br> <p id="pj2dir">this is a weather forcast application which <br>tells you about weather condition you can search by your <br>city name and and can get the weather condition of your city.
-                    </p></li>
+                    <li><a id="pj2" onclick="project_onclick(this.id)">Weather App</a><br>
+                        <p id="pj2dir">this is a weather forcast application which <br>tells you about weather condition
+                            you can search by your <br>city name and and can get the weather condition of your city.
+                        </p>
+                    </li>
 
-                    <li><a  id="pj3" onclick="project_onclick(this.id)">Seat finder</a><br> <p id="pj3dir">this application helps you to identify which seat you have been allocated <br>(upper ,lower, middle,side upper, side lower). you can do this by <br>sproviding your seat number and it will tell you about your seat.
-                    </p></li>
+                    <li><a id="pj3" onclick="project_onclick(this.id)">Seat finder</a><br>
+                        <p id="pj3dir">this application helps you to identify which seat you have been allocated
+                            <br>(upper ,lower, middle,side upper, side lower). you can do this by <br>sproviding your
+                            seat number and it will tell you about your seat.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="intro_main anime_content" id="anime">
+            <div class="anime_sec projects">
+                <p>Anime</p>
+                <hr>
+                <p>I cherish anime; its diverse stories, vivid art, and cultural insights make <br> it a captivating and
+                    cherished form of entertainment.</p>
+                <hr>
+                <ul class="pj_links">
+                    <li>Death Note</li>
+                    <li>Haikyuu</li>
+                    <li>Demon slayer</li>
+                    <li>Jujutsu Kaisen</li>
+                    <li>Tokyo Ghoul</li>
+
                 </ul>
             </div>
 
         </div>
+
+        <div class="icon_next" id="next_ptr" onclick="change_Content(this.id)">
+            <img src="img/nextIcon.png" alt="nextIcon">
+        </div>
+
+    </div>
     </div>
 </body>
+
 </html>
