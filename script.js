@@ -1,7 +1,7 @@
 
 
-const arr =["intro" , "anime"];
-let start = 0;
+const arr =["proj" , "intro" , "anime"];
+let start = 1;
 
 
 function project_onclick(pjid)
